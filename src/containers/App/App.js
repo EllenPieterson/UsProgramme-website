@@ -1,13 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+// import styles from "./App.module.scss";
+import Navbar from "../../components/Navbar";
+import LandingPage from "../LandingPage/LandingPage";
+import ProfileCardList from "../About/ProfileCardList/ProfileCardList";
 
 function App() {
   return (
-    <main>
-      <header>
-        <h1>Us Programme</h1>
-      </header>
-    </main>
+    <div>
+      <Navbar />
+      {/* <LandingPage /> */}
+      <ProfileCardList />
+    </div>
   );
 }
 

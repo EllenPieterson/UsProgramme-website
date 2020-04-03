@@ -1,0 +1,25 @@
+.Nav {
+    top: 0%;
+    width: 100vw;
+    height: 80px;
+    background-color: whitesmoke;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    // border: 2px solid red;
+
+    img {
+        width: 140px;
+    }
+
+    .links {
+        display: flex;
+
+        div {
+            font-size: 16px;
+            font-family: sans-serif;
+            color: grey;           
+        }
+    }
+}

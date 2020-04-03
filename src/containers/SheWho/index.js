@@ -1,3 +1,3 @@
-import SheWho from "./SheWho";
+// import SheWho from "./SheWho";
 
-export default SheWho;
+// export default SheWho;
